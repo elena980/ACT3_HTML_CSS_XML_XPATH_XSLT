@@ -92,8 +92,63 @@
             </table>
 
         </ol>
-        
-        
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+
+        <form action="formularioHTML.jsp" method="post">
+            <fieldset><legend>INFORMACIÓN SIN COMPROMISO</legend>
+                <label for="nombre" title="Nombre">Nombre</label>
+                <input id="nombre" type="text" name="nombre" required/>
+            </br>
+                <label for="apellidos" title="Apellidos">Apellidos</label>
+                <input id="apellidos"type="text" name="apellidos" required/>
+            </br>
+                <label for="edad" title="Edad">Edad</label>
+                <input id="edad" type="text" name="edad"/>
+            </br>
+                <label for="email" title="email">Email</label>
+                <input id="email" type="text" name="e-mail" required/>
+            </br>
+                <label for="telefono" title="email">Teléfono</label>
+                <input id="telefono" type="text" name="telefono" required/>
+            </br>
+                <label for="comunidad_autonoma">Comunidad Autónoma: </label>
+                <select name="comunidad_autonoma">
+                    <option value="AND">Andalucía</option>
+                    <option value="AST">Asturias</option>
+                    <option value="CYL">Castilla y León</option>
+                    <option value="CAT">Cataluña</option>
+                    <option value="EXT">Extremadura</option>
+                    <option value="GAL">Galicia</option>
+                    <option value="MAD" selected>Madrid</option>
+                    <option value="MAL">Malaga</option>
+                    <option value="MUR">Murcia</option>
+                    <option value="NAV">Navarra</option>
+                    <option value="PV">País Vasco</option>
+                    
+                </select>
+            </br>
+            </br>
+                <label for= "matriculacion" title="Módulo requerido">Selección de ciclo formativo</label>
+            </br>
+                <input id="asir" type="checkbox" name="matriculacion" value="Asir"/>ASIR</br>
+                <input id="dam" type="checkbox" name="matriculacion" value="Dam"/>DAM</br>
+                <input id="daw" type="checkbox" name="matriculacion" value="Daw"/>DAW</br>
+            <br />
+                <label for="contacto" title="cómo nos ponemos en contacto con usted">Preferencia de contacto</label>
+            </br>
+                <input id="telefono" type="radio" name="contacto" value="tlf"/> Teléfono </br>
+                <input id="mail" type="radio" name="contacto" value="mail"/> E-mail 
+            </br>
+            </br>
+            <input type="submit" value="Enviar datos" />
+            <input type="reset" value="Limpiar formulario" />
+            </fieldset>
+
+        </form>
 
         
     </body>
