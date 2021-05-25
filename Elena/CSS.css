@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+h1 {
+	color: rgb(243, 12, 31);
+	font-family: Segoe UI;
+	font-size: 75;
+	display: block;
+}
+
+table {
+	color: rgb(243, 12, 31);;
+	font-family: Segoe UI;
+	font-size: 15px;
+	display: block;
+    float:left;
+}
+
+div {
+	color:teal;
+	font-family: Segoe UI;
+    line-height: 15px;
+	font-size: 15;
+    float:right;
+
+}
+
+label {
+	background-color:rgb(243, 12, 31);
+	color: white;
+	font-family: Segoe UI;
+	font-size: 25;
+	display: block;
+
+}
+
+
+
+input {
+
+	display: block;
+}
