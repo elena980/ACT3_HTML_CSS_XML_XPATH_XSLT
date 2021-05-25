@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="XSLxml.xsl"?>
+
+<ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com" empresa="Proeduca" telefono="917873991" >
+
+    <profesores>
+
+                   <profesor id="1" nombre="Félix"/>
+
+                   <profesor id="2" nombre="Raúl"/>
+
+                   <profesor id="3" nombre="Raquel"/>
+
+                   <profesor id="4" nombre="Tomás"/>
+    </profesores>
+
+    <director nombre="Chon" despacho="Numero 31, 3ª Planta, Edificio A"/>
+
+    <jefe_estudios nombre="Dani" despacho="Numero 27, 2ª Planta, Edificio B"/>
+
+    <ciclos>
+ 
+                   <ciclo id="ASIR" decretoTituloAño="2009"/>
+                   <ciclo id="DAW" decretoTituloAño="2010"/>
+                   <ciclo id="DAM" decretoTituloAño="2010"/>
+
+    </ciclos>
+
+</ite>
