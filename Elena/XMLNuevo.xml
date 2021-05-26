@@ -1,28 +1,95 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="XSLxml.xsl"?>
 
-<ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com" empresa="Proeduca" telefono="917873991" >
+<ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com" >
+
+    <empresa>Proeduca</empresa>
+
+    <telefono>91 787 39 91</telefono>
 
     <profesores>
 
-                   <profesor id="1" nombre="Félix"/>
+                   <profesor>
 
-                   <profesor id="2" nombre="Raúl"/>
+                                   <id>1</id>
 
-                   <profesor id="3" nombre="Raquel"/>
+                                   <nombre>Félix</nombre>
 
-                   <profesor id="4" nombre="Tomás"/>
+                   </profesor>
+
+                   <profesor>
+
+                                   <id>2</id>
+
+                                   <nombre>Raúl</nombre>
+
+                   </profesor>
+
+                   <profesor>
+
+                                   <id>3</id>
+
+                                   <nombre>Raquel</nombre>
+
+                   </profesor>
+
+                   <profesor>
+
+                                   <id>4</id>
+
+                                   <nombre>Tomás</nombre>
+
+                   </profesor>
+
     </profesores>
 
-    <director nombre="Chon" despacho="Numero 31, 3ª Planta, Edificio A"/>
+    <director>
 
-    <jefe_estudios nombre="Dani" despacho="Numero 27, 2ª Planta, Edificio B"/>
+                   <nombre>Chon</nombre>
+
+                   <despacho>Numero 31, 3ª Planta, Edificio A</despacho>
+
+    </director>
+
+    <jefe_estudios>
+
+                   <nombre>Dani</nombre>
+
+                   <despacho>Numero 27, 2ª Planta, Edificio B</despacho>
+
+    </jefe_estudios>
 
     <ciclos>
- 
-                   <ciclo id="ASIR" decretoTituloAño="2009"/>
-                   <ciclo id="DAW" decretoTituloAño="2010"/>
-                   <ciclo id="DAM" decretoTituloAño="2010"/>
+
+                   <ciclo id="ASIR">
+
+                                   <nombre>Administración de Sistemas Informáticos en Red</nombre>
+
+                                   <grado>Superior</grado>
+
+                                   <decretoTitulo anio="2009" />
+
+                   </ciclo>
+
+                   <ciclo id="DAW">
+
+                                   <nombre>Desarrollo de Aplicaciones Web</nombre>
+
+                                   <grado>Superior</grado>
+
+                                   <decretoTitulo anio="2010" />
+
+                   </ciclo>
+
+                   <ciclo id="DAM">
+
+                                   <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+
+                                   <grado>Superior</grado>
+
+                                   <decretoTitulo anio="2010" />
+
+                   </ciclo>
 
     </ciclos>
 
