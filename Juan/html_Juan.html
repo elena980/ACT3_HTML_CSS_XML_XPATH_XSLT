@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instituto Tecnologico Edix</title>
+    </head>
+
+    <body>
+        <h1>
+            <pre title="PROINNOVA">
+                <a href="https://www.grupoproeduca.com/">Proeduca</a>
+                Teléfono (+34) 917 873 991
+            </pre>
+        </h1>
+        
+
+        <table border="10">
+            <caption><h4>Profesores en nómina</h4></caption>
+            <thead>
+                <tr>
+                   <td>ID</td>
+                   <td>NOMBRE</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td> <a href="https://www.linkedin.com/in/felix-de-pablo-lobo">Félix</a></td>  
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Raúl</td>   
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Raquel</td>   
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Tomás</td>   
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+
+        <table border="10">
+            <caption><h4>Dirección</h4></caption>
+            <thead>
+                <tr>
+                    <td>PUESTO</td>
+                   <td>NOMBRE</td>
+                   <td>DESPACHO</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Director</td>
+                    <td>Chon</td>
+                    <td>Despacho: Nº31, 3ªPlanta Edificio A</td>  
+                </tr>
+                <tr>
+                    <td>Jefe de estudios</td>
+                    <td>Daniel</td>
+                    <td>Despacho: Nº27, 2ªPlanta Edificio B</td>  
+                </tr>
+
+            </tbody>
+        </table>
+
+            <br/>
+            <table border="10">
+                <caption><h4>CICLOS FORMATIVOS</h4></caption>
+                <thead>
+                    <tr>
+                        <td></td>
+                       <td>ASIR</td>
+                       <td>>DAW</td>
+                       <td>DAM</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>NOMBRE</td>
+                        <td>Administración de sistemas informáticos en Red</td>  
+                        <td>Desarrollo de aplicaciones Web</td>
+                        <td>Desarrollo de aplicaciones multiplataforma</td>
+                    </tr>
+                    <tr>
+                        <td>GRADO</td>
+                        <td>Superior</td>
+                        <td>Superior</td>
+                        <td>Superior</td>   
+                    </tr>
+                    <tr>
+                        <td> AÑO DECRETO TÍTULO </td>
+                        <td>2009</td>   
+                        <td>2010</td>
+                        <td>2010</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+        </ol>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+
+        <form action="formularioHTML.jsp" method="post">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <label for="nombre" title="Nombre">Nombre</label>
+                <input id="nombre" type="text" name="nombre" required/>
+                <label for="apellidos" title="Apellidos">Apellidos</label>
+                <input id="apellidos"type="text" name="apellidos" required/>
+                <label for="fecha_nacimiento">Fecha de nacimiento (dd/mm/aaaa): </label>
+                <input id="fecha_nacimiento" type="text" name="fecha_nacimiento" required/>
+            </br>
+                <label for="usuario">Usuario: </label>
+                <input id="usuario" type="text" name="usuario" required/>
+
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email" required/>
+
+                <label for="password">Contraseña: </label>
+                <input id="password" type="password" name="password" required/>
+            </br>
+                <label for="telefono" title="email">Teléfono</label>
+                <input id="telefono" type="text" name="telefono" required/>
+                <label for="comunidad_autonoma">Comunidad Autónoma: </label>
+                <select name="comunidad_autonoma">
+                <option value="AND">Andalucía</option>
+                <option value="TUE">Aragón</option>
+                <option value="WED">Asturias</option>
+                <option value="THU">Cantabria</option>
+                <option value="FRI">Castilla-La Mancha</option>
+                <option value="AND">Castilla y León</option>
+                <option value="AND">Cataluña</option>
+                <option value="AND">Extremadura</option>
+                <option value="AND">Galicia</option>
+                <option value="AND">Islas Baleares</option>
+                <option value="AND">Canarias</option>
+                <option value="AND">La Rioja</option>
+                <option value="AND">Madrid</option>
+                <option value="AND">Murcia</option>
+                <option value="AND">Navarra</option>
+                <option value="AND">País Vasco</option>
+                <option value="AND">Valencia</option>
+                    
+                </select>
+            </br>
+            </br>
+                <label for= "matriculacion" title="Módulo requerido">Ciclo formativo matriculado</label>
+            </br>
+                <input id="asir" type="radio" name="matriculacion" value="Asir"/>ASIR</br>
+                <input id="dam" type="radio" name="matriculacion" value="Daw"/>DAW</br>
+                <input id="daw" type="radio" name="matriculacion" value="Dam"/>DAM</br>
+            <br />
+                <label for="contacto" title="contacto">Contacto vía</label>
+            </br>
+                <input id="telefono" type="radio" name="contacto" value="tlf"/> Teléfono </br>
+                <input id="fax" type="radio" name="contacto" value="tlf"/> Fax </br>
+                <input id="mail" type="radio" name="contacto" value="mail"/> E-mail </br>
+            </br>
+            Soy mayor de 18 años.(*)<input type="checkbox" name="terminos" value="Y" required/>
+            <br/>
+            <input type="submit" value="Enviar datos" />
+            <input type="reset" value="Limpiar formulario" />
+            </fieldset>
+
+        </form>        
+    </body>
+</html>
