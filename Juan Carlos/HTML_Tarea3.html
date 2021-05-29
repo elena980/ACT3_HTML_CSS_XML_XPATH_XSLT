@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <link rel="stylesheet" href="CSS_JuanCarlos.css"
+
+    <title id="empresa">Proeduca</title>
+    <a href="https://institutotecnologico.edix.com">ASIR</a>
+    <title id="Telefono">+34 91 787 39 91</title>
+</head>
+
+<body>
+    <section>
+        <h1>Profesores</h1>
+        <article>
+            <h2>Profesor</h2>
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Felix</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Raul</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Raquel</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Tomas</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <section>
+        <h1>Director</h1>
+        <article>
+            <ol>
+                <li>Nombre</li>
+                <ul>
+                    <li>Chon</li>
+                </ul>
+                <li>Despacho</li>
+                <ul>
+                    <li>Numero 31, 3ª Planta, Edificio A</li>
+                </ul>
+            </ol>
+        </article>
+    </section>
+    <section>
+        <h1>Jefe_Estudios</h1>
+        <article>
+            <article>
+                <ol>
+                    <li>Nombre</li>
+                    <ul>
+                        <li>Dani</li>
+                    </ul>
+                    <li>Despacho</li>
+                    <ul>
+                        <li>Numero 27, 2ª Planta, Edificio B</li>
+                    </ul>
+                </ol>
+            </article>
+        </article>
+    </section>
+    <section>
+        <h1>Ciclos</h1>
+        <article>
+            <h2 id="ASIR">Ciclo</h2>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Grado</th>
+                    <th id="año" content="2009">decretoTitulo</th>
+                </tr>
+                <tr>
+                    <td>Administración de Sistemas Informáticos en Red</td>
+                    <td>Superior</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2 id="DAW">Ciclo</h2>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Grado</th>
+                    <th id="año" content="2010">decretoTitulo</th>
+                </tr>
+                <tr>
+                    <td>Desarrollo de Aplicaciones Web</td>
+                    <td>Superior</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2 id="DAM">Ciclo</h2>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Grado</th>
+                    <th id="año" content="2010">decretoTitulo</th>
+                </tr>
+                <tr>
+                    <td>Desarrollo de Aplicaciones Multiplataforma</td>
+                    <td>Superior</td>
+                </tr>
+            </table>
+    </br>
+
+    <form action="formularioHTML.jsp" method="post">
+        <fieldset><legend>FORMULARIO DE NUEVO USUARIO</legend>
+            <label for="nombre" title="Nombre">Nombre</label>
+            <input id="nombre" type="text" name="nombre" required/>
+        </br>
+            <label for="apellidos" title="Apellidos">Apellidos</label>
+            <input id="apellidos"type="text" name="apellidos" required/>
+        </br>
+            <label for="email" title="email">Email</label>
+            <input id="email" type="text" name="e-mail" required/>
+        </br>
+            <label for="zona">Zona: </label>
+            <select name="zona">
+                <option value="AND" selected>Andalucía y sur</option>
+                <option value="CAT">Pais Vasco y norte</option>
+                <option value="MAD">Madrid</option>
+            </select>
+        </br>
+            <input id="ASIR" type="checkbox" name="ciclo" value="ASIR"/>ASIR</br>
+            <input id="DAM" type="checkbox" name="ciclo" value="DAM"/>DAM</br>
+            <input id="DAW" type="checkbox" name="ciclo" value="DAW"/>DAW</br>
+        </br>
+            <input id="telefono" type="radio" name="contacto" value="tlf"/> Teléfono </br>
+            <input id="mail" type="radio" name="contacto" value="mail"/> E-mail 
+        </br>
+        </br>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Nuevo formulario" />
+        </fieldset>
+
+    </form>
+
+
+</body>
+        </article>
+
+    </section>
+</body>
