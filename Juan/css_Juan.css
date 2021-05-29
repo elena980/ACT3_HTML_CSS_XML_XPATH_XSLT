@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+h1 {
+	background-color: rgb(2, 191, 248);
+	color: rgb(0, 110, 255);
+	font-size: 10px;
+	display: block;
+}
+
+div {
+	background-color: rgb(2, 191, 248);
+	font-size: 15px;	
+	display: block;
+}
+
+table {
+	color: rgb(69, 2, 253);;
+	font-size: 15px;
+	display: block;
+}
+
+label {
+	background-color:rgb(74, 177, 236);
+	color: rgb(3, 3, 3);
+	font-size: 20px;
+	display: block;
+}
